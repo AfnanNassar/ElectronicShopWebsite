@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <TITLE>Activity - Insert animated GIF to HTML</TITLE>
+  <link rel="stylesheet" href="/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- ******************  GET font-awesome  *********************** -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+     <!-- ******************  GET animate.css   *********************** -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">    
+      
+     <style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+#navbar1 {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+#link1 {
+  float: left;
+  display:inline-block ;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+#link2 {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}#link3 {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}#link4 {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  padding: 30px;
+  margin-top: 1px;
+}
+
+.icon-bar a {
+  float: right;
+  width: 3%;
+  text-align: center;
+  padding: 1px 0;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  color: violet;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/******************************** NAV BAR 2************************************************************/
+* {
+box-sizing: border-box;
+/* display: inline-block; */
+}
+
+body {
+margin: 0;
+}
+
+.navbar {
+background-color: #333;
+font-family: Arial, Helvetica, sans-serif;
+overflow: hidden;
+
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+font-size: 15px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: black;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+width: 100%;
+left: 0;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content .header {
+background: black;
+padding: 16px;
+color: white;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 17%;
+padding: 10px;
+background-color:white;
+height: 350px;
+}
+
+.column a {
+float: none;
+color: inherit;
+padding: 10px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-size: 14px;
+font: inherit;
+}
+
+.column a:hover {
+background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+#clothing{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+#accessories{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+#shoes{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+#clothing2{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+#accessories2{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+#footwear{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+#sale1{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+#sale2{
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 10px;
+border-bottom: 1px solid #000;
+margin-bottom: 20px;
+}
+
+#fashiony{
+  position: absolute;
+  margin-left: 30%;
+  text-decoration: none;
+  width: 7%;
+  font-size: 30px;
+font-family: serif;  
+font-weight: bolder;
+  vertical-align: baseline;
+  text-align: center;
+
+}
+
+/***************************** start side bar *****************************************/
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+/******************************************************** end side bar *********************************************/
+
+#home{
+  text-decoration: none;
+  color: inherit;
+  font-size: 10px;
+  color: grey;
+}
+#wom{
+  color: inherit;
+  font-size: 13px;
+}
+
+/************************ start select *******************************************/
+
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: transparent;
+  
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color:black transparent transparent transparent;
+
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #353434;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/************************ end select *******************************************/
+
+/******************************* start range slider ******************************/
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50% ;
+  border:3px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+/************************************ end range slider  **************************/
+#reset{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 20px;
+  margin-left: 120px;
+}
+#reset:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+#column1{
+  float: left;
+  width: 25%;
+  padding: 1px;
+  margin-bottom: 60px;
+}
+
+/* .column {
+ 
+} */
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* *********************************************** start overlay **************************************************/
+.container {
+  position: relative;
+  width: 79%;
+  max-width: 300px;
+}
+.overlay {
+  position: absolute; 
+  bottom: 30px; 
+  background: black; /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+#over{
+  background-color:transparent;
+  margin-bottom: -28px;
+}
+
+#img1:hover{
+  background-color:transparent;
+  
+}
+
+/* *********************************************** end overlay *********************************************/
+
+/* *********************************************** start prev and next *************************************/
+#prev {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+#prev:hover {
+  
+  color: black;
+}
+
+.previous {
+  background-color:transparent;
+  color: black;
+  margin-left: 780px;
+}
+
+.next {
+  background-color: transparent;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+/* *********************************************** end prev and next ***************************************/
+
+#name{
+  color: #000;
+  font-size: 14px;
+}
+#name:hover{
+  color: darkgray;
+  background-color: transparent;
+}
+#old{
+  text-decoration: line-through;
+  padding: 10px;
+  font-weight: bolder;
+}
+#new{
+  color: #f03;
+  font-weight: bolder;
+}
+#reg{
+    font-weight: bolder;
+}
+
+#shipto{
+    font-size: 100%;
+    font-weight: bolder;
+}
+#ship{
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+#cc {
+  float: left;
+  width: 20%;
+  padding: 1px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#shipto{
+    font-size: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+#ship{
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 1px;
+}
+#ship:hover{
+  background-color: transparent;
+  color: palevioletred;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+     </style>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <div class="icon-bar">
+    <select name="money" id=""><option selected>JOD</option>
+        <option value="1">BHD</option>
+        <option value="3">KWD</option>
+        <option value="3">OMR</option>
+        <option value="3">QAR</option>
+        <option value="3">SAR</option>
+        <option value="3">KWD</option>
+        <option value="3">UK</option>
+    </select>
+    <select name="language" id=""><option selected>عربي</option>
+        <option value="1">English</option>
+        <option value="3">Italiano</option>
+        <option value="3">Français</option>
+        <option value="3">한국어</option>
+       </select>
+  
+    <a href="SALE.html" id="fashiony">FASHIONY</a>
+    <a href="#"><i class="fa fa-shopping-cart "></i></a>
+    <a href="#"><i class="fa fa-heart "></i></a> 
+    <a href="login.html"><i class="fa fa-user "></i></a> 
+    <a href="#"><i class="fa fa-search "></i></a> 
+  </div>
+<!--*************** start navbar1 *******************************-->
+<!-- <div class="navbar" id="navbar1">
+    <a href="#" id="link1">Link</a>
+    <a href="#" id="link2">Link</a>
+    <a href="#" id="link3">Link</a>
+    <a href="#" class="right" id="link4">Link</a>
+  </div> -->
+     <!--*************** end navbar1 *******************************-->
+
+  <!--*************** start navbar2 *******************************-->
+<div class="navbar">
+<!--*************** start NEW IN *******************************-->
+<div class="dropdown">
+<button class="dropbtn">NEW IN
+</button>
+<div class="dropdown-content">
+  <div class="header">
+  </div>   
+  <div class="row">
+    <div class="column">
+    <a href="woman.html">NEW IN WOMEN</a>       
+    </div>
+    <div class="column">
+      <a href="MENS.html">NEW IN MEN</a>
+    
+    </div>
+ 
+  </div>
+</div>
+</div>
+<!--***************** end NEW IN ******************************* -->
+
+<!--*************** start WOMENS *******************************-->
+<div class="dropdown">
+<button class="dropbtn"> WOMENS</button>
+<div class="dropdown-content">
+  <div class="header">
+  </div>   
+  <div class="row">
+      <!--*************** start clothing *******************************-->
+    <div class="column">
+    <a href="woman.html" id="clothing">CLOTHING</a>  
+    <a href=""> Top Sellers </a>
+    <a href=""> Jumpsuits & Playsuits</a>
+    <a href=""> Dresses </a>
+    <a href=""> Denim & Jeans </a>
+    <a href=""> Tops & Shirts </a>
+    <a href=""> Lingerie </a>
+    </div>
+    <div class="column">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""> Shorts </a>
+        <a href=""> Skirts </a>
+        <a href=""> Trousers & Leggings </a>
+        <a href=""> Sportswear </a>
+        <a href=""> Coats & Jackets </a>
+      </div>
+      <!--*************** end clothing *******************************-->
+
+      <!--*************** start accessories *******************************-->
+    <div class="column">
+      <a href="accessories.html" id="accessories">ACCESSORIES</a>
+      <a href=""> Handbags, Clutches & Wallets </a>
+      <a href=""> Jewellery </a>
+      <a href=""> Scarves, Hats & Gloves</a>
+      <a href=""> Tights & Socks </a>
+      <a href=""> Sunglasses </a>
+    </div>
+    <div class="column">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""> Hair Accessories </a>
+        <a href=""> Beauty Products </a>
+        <a href=""> Belts </a>
+      </div>
+      <!--*************** end accessories *******************************-->
+
+      <!--*************** start shoes *******************************-->
+    <div class="column">
+        <a href="" id="shoes">SHOES</a>
+        <a href=""> Heels </a>
+        <a href=""> Flats </a>
+        <a href=""> Boots </a>
+      </div>
+    <!--*************** end shoes *******************************-->
+      
+  </div>
+</div>
+</div>
+<!--***************** end WOMENS ******************************* -->
+
+<!--*************** start MENS *******************************-->
+<div class="dropdown">
+<button class="dropbtn">MENS
+</button>
+<div class="dropdown-content">
+  <div class="header">
+  </div>   
+  <div class="row">
+      <!--*************** start clothing *******************************-->
+    <div class="column">
+    <a href="MENS.html" id="clothing2">CLOTHING</a> 
+    <a href=""> Top Seller </a>
+    <a href=""> Sportswear </a>
+    <a href=""> Shirts </a>
+    <a href=""> Jackets & Coats </a>
+    <a href=""> Jeans & Denim </a>
+          
+    </div>
+    <div class="column">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""> Tops and T-shirts </a>
+    <a href=""> Trousers & Shorts </a>
+    <a href=""> Sleepwear & Underwear </a>
+    <a href=""> Suits & Blazers </a>
+      </div>
+    <!--*************** end clothing *******************************-->
+    <!--*************** start accessories *******************************-->
+    <div class="column">
+      <a href="" id="accessories2">ACCESSORIES</a>
+      <a href=""> Bags & Wallets </a>
+      <a href=""> Jewellery </a>
+      <a href=""> Scarves, Hats & Gloves </a>
+      <a href=""> Belts </a>
+      <a href=""> Sunglasses </a>
+    </div>
+    <!--*************** end accessories *******************************-->
+    <!--*************** start footwear *******************************-->
+    <div class="column">
+        <a href="" id="footwear">FOOTWEAR</a>
+        <a href=""> Boots </a>
+        <a href=""> Sneakers </a>
+        <a href=""> Lace Ups </a>
+        <a href=""> Sliders </a>
+      </div>
+      <!--*************** end footwear *******************************-->
+  </div>
+</div>
+</div>
+<!--***************** end MENS ******************************* -->
+
+<!--*************** start ESSENTIALS *******************************-->
+<div class="dropdown">
+<button class="dropbtn">ESSENTIALS
+</button>
+<div class="dropdown-content">
+  <div class="header">
+  </div>   
+  <div class="row">
+    <div class="column">
+    <a href=""> Masks </a>
+    <a href=""> Skincare </a>
+    <a href=""> Haircare </a>
+    <a href=""> Bath & Body </a>
+    <a href="">  Men's Grooming </a>
+    <a href=""> Hair Styling </a>
+    <a href=""> Appliances </a>      
+    </div>
+    
+  </div>
+</div>
+</div>
+<!--***************** end ESSENTIALS ******************************* -->
+
+<!--*************** start SALE *******************************-->
+<div class="dropdown">
+<button class="dropbtn">SALE
+</button>
+<div class="dropdown-content">
+<div class="header">
+</div>   
+<div class="row">
+<div class="column">
+<a href="" id="sale1">WOMENS SALE</a>
+<a href=""> Shop Clothing </a>
+<a href="">Shop Accessories</a>
+<a href=""> Shop Shoes </a>       
+</div>
+<div class="column">
+  <a href="" id="sale2">MENS SALE</a>
+  <a href=""> Shop Clothing </a>
+  <a href=""> Shop Accessories </a>
+  <a href=""> Shop Shoes </a>
+</div>
+
+</div>
+</div>
+</div> 
+<!--***************** end SALE ******************************* -->
+</div>
+<!--***************** end navbar 2 ******************************* -->
+<br>
+
+    
+<!-- /******************************************************* start side bar **********************************************************************/ -->
+<div class="row">
+  <div class="side">
+    <a href="SALE.html" id="home" title="Go to Home Page">Home -></a>
+    <span id="home">WOMENS -></span>
+    <span id="wom">ACCESSORIES</span>
+    <h2>ACCESSORIES</h2>
+    <h3>SORT BY :</h3>
+    <div class="custom-select" style="width:200px;">
+      <select>
+        <a href=""><option value="0">Relevance</option></a>
+        <a href=""><option value="1">Relevance</option></a>
+        <a href=""><option value="2">Latest Arrivals</option></a>
+        <a href=""><option value="3"> Price Low to High </option></a>
+        <a href=""><option value="4">Price High to Low</option></a>
+        
+      </select>
+    </div>
+    <br>
+    <br>
+     <h4>FILITER BY :</h4>    
+     <div class="custom-select" style="width:200px;">
+      <select>
+        
+       
+        
+        
+
+
+
+
+
+
+
+        
+
+        <a href=""><option value="0">Category</option></a>
+        <a href=""><option value="1">Sunglasses (73)</option></a>
+        <a href=""><option value="2">Hair Accessories (115)</option></a>
+        <a href=""><option value="3">Beauty Products (583) </option></a>
+        <a href=""><option value="4">Jewellery (184</option></a>
+        <a href=""><option value="4">Scarves, Hats & Gloves (28)</option></a>
+        <a href=""><option value="4">Tights & Socks (17)</option></a>
+        <a href=""><option value="4">Belts (117)</option></a>
+        <a href=""><option value="4">Handbags, Clutches & Wallets (159)</option></a>
+
+      </select>
+    </div>
+    <br>
+    <br>
+    <div class="custom-select" style="width:200px;">
+      <select>
+        <a href=""><option value="0">Gender</option></a>
+        <a href=""><option value="2"> Men (1700)</option></a>
+      </select>
+    </div>
+    <br>
+    <br>
+    <div class="custom-select" style="width:200px;">
+      <select>
+        <a href=""><option value="0"> UK Size</option></a>
+        <a href=""><option value="1">One Size (1069)</option></a>
+        <a href=""><option value="2">30B (UK) (1)</option></a>
+        <a href=""><option value="3"> 32D (UK) (2)</option></a>
+        <a href=""><option value="4">L (4774)</option></a>
+        <a href=""><option value="4">L&XL (3231) </option></a>
+        <a href=""><option value="4">M (851)</option></a>
+        <a href=""><option value="4">N/A (5)</option></a>
+        <a href=""><option value="4">S (846)</option></a>
+        <a href=""><option value="4">24 (558)</option></a>
+        <a href=""><option value="4">26 (361)</option></a>
+        <a href=""><option value="4">28 (316)</option></a>
+        <a href=""><option value="4">XL (1212)</option></a>
+        <a href=""><option value="4"> XS (256)</option></a>
+        <a href=""><option value="4"> XXL (719)</option></a>
+        <a href=""><option value="4">34DD (UK) (3)</option></a>
+        <a href=""><option value="4">36DD (UK) (1)</option></a>
+        <a href=""><option value="4">XXXL (4)</option></a>
+        
+        
+      </select>
+    </div>
+    <br>
+    <br>
+    <div class="custom-select" style="width:200px;">
+      <select>
+        <a href=""><option value="0">Color </option></a>
+        <a href=""><option value="1">Black (4109)</option></a>
+        <a href=""><option value="2">Red (696)</option></a>
+        <a href=""><option value="3"> Beige (384) </option></a>
+        <a href=""><option value="4">Blue (854)</option></a>
+        <a href=""><option value="4">Brown (459)</option></a>
+        <a href=""><option value="4">Clear (47)</option></a>
+        <a href=""><option value="4">Cream (399)</option></a>
+        <a href=""><option value="4">Gold (171)</option></a>
+        <a href=""><option value="4">Green (632)</option></a>
+        <a href=""><option value="4">Gray (1000)</option></a>
+        <a href=""><option value="4">Multi (179)</option></a>
+        <a href=""><option value="4">Orange (363)</option></a>
+        <a href=""><option value="4">Pink (1078)</option></a>
+        <a href=""><option value="4">Purple (314)</option></a>
+        <a href=""><option value="4">Silver (144)</option></a>
+        <a href=""><option value="4">White (1430)</option></a>
+        <a href=""><option value="4">Yellow (362)</option></a>
+        <a href=""><option value="4">Navy (197)</option></a>
+        <a href=""><option value="4">Mutlicolor (1)</option></a>
+      </select>
+    </div>
+    <br>
+    <br>
+    <!-- /******************************* start range slider ******************************/ -->
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      <p>JOD <span id="demo"></span></p>
+    </div>
+    <!-- /************************************ end range slider  **************************/ -->
+
+    <br>
+    <a href="" id="reset">RESET FILTERS</a>
+    <!-- <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div> -->
+  </div>
+  <div class="main">
+    <div class="row">
+      <a href="#" class="previous round" id="prev">&#8249;</a>
+      <a href="" id="prev"> 1</a>
+      <a href="" id="prev"> 2</a>
+      <a href="" id="prev"> 3</a>
+      <a href="#" class="next round" id="prev">&#8250;</a>
+      
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/e8391438941e76e7710bdccf4d499c4a78f52c74-FZZ61952-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+  
+        <span><a href="" id="name">Chunky Rectangle Sunglasses - black
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/462a8f56ecb24dd07719fed2e3267a68f795241b-FZZ84365-156.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Brushworks HD Honey Comb Detangling Brush - purple
+           
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"> </span>
+          <span id="reg"> JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/50de0e641a365b51ec30eb4b319a4714524c9b9a-PZZ70531-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Plus Double Ring Detail Boyfriend Belt - black
+            
+             </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 13.04</span>
+          </div>
+      </div>
+
+      </div></a>
+      
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/301cd0808d850a7032df33f2b4b97c06ff8a9ef5-FZZ71891-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Gradient Frame Oversized Sunglasses - black
+            
+             </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/6306972e4716ae4fae2fbfab9fd5a08b76fb2fed-FZZ57100-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Round Aviator Style Smoke Lens Sunglasses - black
+           
+             </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"> </span>
+          <span id="reg"> JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/50a65835e2214928c8fec1cdacb1a0f3c61e92ab-FZZ85111-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">10 Piece Rose Gold Marble Make Up Brush Set - black
+            
+              </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 19.56</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/62d0bebf7d0677eb6ed96abb6190f6590e4f8fe5-FZZ58669-128.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Pearl Coin Hoop & Stud Earring Multi Pack - gold
+            
+           </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg"> JOD 13.04</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/d4c5915017a1a42e104ac24800cfb630adb4c4e6-DZZ06129-128.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Double Heart Layered Necklace - gold
+           
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg"> JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/8039531fed46b9b782c4786805c1f1a4c7082d43-FZZ83495-128.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Textured Disc Layered Necklace - gold
+             
+             </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old">JOD 10.43</span>
+          <span id="new">JOD 3.91</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/c306493a748d339f96637994902ddb3477469918-DZZ52564-163.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Star Sun Moon Layered Necklace - silver
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"> </span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/5d9017280b294e26ca79b96f26bbb029f6955885-FZZ59192-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Oversized Arm Detail Sunglasses - black
+           
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg"> JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/e6ca6fa84b18121ee606bf846eb59298e67e0e73-FZZ77905-152.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Garnier Ultimate Blends Hair Food Mask Papaya 390ml - orange
+            
+             </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 9.13</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/3882a4dacd31eb9b8731a1ffd26a8460bf3573dc-DZZ85966-128.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Double Bar Layered Necklace - gold
+            
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/16a8ec2758745730371867396f131c4db960ec8f-FZZ64065-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Clear Lense Clubman Style Fashion Glasses - black
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 7.83</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/55e32ea4193c9507f1d46dd27f961ae7b0466549-DZZ01986-364.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Rose Gold Lens Aviator Sunglasses - rose gold
+            
+              </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 7.83</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/9fd1c4f8c961f7b91e6901b9af209e716e7a0662-FZZ78051-128.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Baby Girl Slogan Necklace - gold
+            
+              </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/ab15fe8d0561f4d639bb0efd900c99fd37c03fba-DZZ26726-163.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name"> Coin Detail Pendant Necklace - silver
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/beaf3eb9be22c5838719e8771778f0f5916086ab-FZZ80785-173.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Pack Of 3 Face Puff Cleansing Pads - white
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/b5362cfb6d6cc2fdf6b26d8a9e95433c834e0ab1-FZZ59193-109.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+
+        <span><a href="" id="name">Tortoiseshell Round Sunglasses - brown
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"> </span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+
+      <a href="" id="img1"><div class="column" id="column1">
+        <div class="container">
+          <img src="images/3f477e6c789031d2110a9f6ce1009f3c969665ca-DZZ52739-105.jpg" alt="Snow" style="width: 200px;" height="300px">
+         <a href="" id="over"> <div class="overlay">QUICK VIEW</div></a>
+        </div>
+        
+        <span><a href="" id="name"> Large Scale Fishnet Tights - black
+            
+            </a></span>
+        <div class="price">    
+          <div class="discount"><span id="old"></span>
+          <span id="reg">JOD 10.43</span>
+          </div>
+      </div>
+
+      </div></a>
+     
+
+      
+
+      <a href="#" class="previous round" id="prev">&#8249;</a>
+      <a href="" id="prev"> 1</a>
+      <a href="" id="prev"> 2</a>
+      <a href="" id="prev"> 3</a>
+      <a href="#" class="next round" id="prev">&#8250;</a>
+
+
+      
+
+    </div>
+ 
+
+  
+  </div>
+</div>
+<!-- /******************************************************** end side bar *********************************************/ -->
+   
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="row">
+  <div class="column" id="cc" >
+    <h5 id="shipto">We Ship To</h5>
+    <p id="ship">Saudi Arabia </p>
+    <p id="ship" >United Arab Emirates</p>
+    <p id="ship"> Qatar </p>
+    <p id="ship"> Kuwait </p>
+    <p id="ship"> Oman </p>
+    <p id="ship"> Bahrain </p>
+    <p id="ship"> Jordan </p>
+  </div>
+  <div class="column" id="cc" >
+    <h5 id="shipto">CUSTOMER SERVICE </h5>
+    <p id="ship"><a href="" id="ship"> About Us </a></p>
+    <p id="ship"><a href="" id="ship">  Contact Us </a></p>
+    <p id="ship"><a href="" id="ship">Shipping and Delivery</a></p>
+    <p id="ship"><a href="" id="ship">Privacy and Security</a></p>
+    <p id="ship"><a href="" id="ship"> Payment and Promotions </a></p>
+    <p id="ship"><a href="" id="ship"> Returns and Refunds </a></p>
+    <p id="ship"><a href="" id="ship"> aramex Office Locator </a></p>
+     
+  </div>
+  <div class="column" id="cc" >
+    <h5 id="shipto">HELP </h5>
+    <p id="ship"><a href="" id="ship"> How to make an order </a></p>
+    <p id="ship"><a href="" id="ship">  Updating Account Info </a></p>
+    <p id="ship"><a href="" id="ship">Viewing Orders and Tracking them</a></p>
+    <p id="ship"><a href="" id="ship">Size Guide</a></p>
+    <p id="ship"><a href="" id="ship"> FAQs </a></p>
+
+  </div>
+
+  <div class="column" id="cc" >
+    <h5 id="shipto">CONECT WITH FASHIONY</h5>
+    <a href="https:www.facebook.com" id="ship"><i class="fab fa-facebook"></i> </a>
+<a href="https:www.twitter.com" id="ship"> <i class="fab fa-twitter"></i> </a>
+<a href="https:www.instagram.com" id="ship"> <i class="fab fa-instagram-square"></i></i> </a>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+
+
+
+
+<script>
+  var x, i, j, l, ll, selElmnt, a, b, c;
+  /*look for any elements with the class "custom-select":*/
+  x = document.getElementsByClassName("custom-select");
+  l = x.length;
+  for (i = 0; i < l; i++) {
+    selElmnt = x[i].getElementsByTagName("select")[0];
+    ll = selElmnt.length;
+    /*for each element, create a new DIV that will act as the selected item:*/
+    a = document.createElement("DIV");
+    a.setAttribute("class", "select-selected");
+    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    x[i].appendChild(a);
+    /*for each element, create a new DIV that will contain the option list:*/
+    b = document.createElement("DIV");
+    b.setAttribute("class", "select-items select-hide");
+    for (j = 1; j < ll; j++) {
+      /*for each option in the original select element,
+      create a new DIV that will act as an option item:*/
+      c = document.createElement("DIV");
+      c.innerHTML = selElmnt.options[j].innerHTML;
+      c.addEventListener("click", function(e) {
+          /*when an item is clicked, update the original select box,
+          and the selected item:*/
+          var y, i, k, s, h, sl, yl;
+          s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+          sl = s.length;
+          h = this.parentNode.previousSibling;
+          for (i = 0; i < sl; i++) {
+            if (s.options[i].innerHTML == this.innerHTML) {
+              s.selectedIndex = i;
+              h.innerHTML = this.innerHTML;
+              y = this.parentNode.getElementsByClassName("same-as-selected");
+              yl = y.length;
+              for (k = 0; k < yl; k++) {
+                y[k].removeAttribute("class");
+              }
+              this.setAttribute("class", "same-as-selected");
+              break;
+            }
+          }
+          h.click();
+      });
+      b.appendChild(c);
+    }
+    x[i].appendChild(b);
+    a.addEventListener("click", function(e) {
+        /*when the select box is clicked, close any other select boxes,
+        and open/close the current select box:*/
+        e.stopPropagation();
+        closeAllSelect(this);
+        this.nextSibling.classList.toggle("select-hide");
+        this.classList.toggle("select-arrow-active");
+      });
+  }
+  function closeAllSelect(elmnt) {
+    /*a function that will close all select boxes in the document,
+    except the current select box:*/
+    var x, y, i, xl, yl, arrNo = [];
+    x = document.getElementsByClassName("select-items");
+    y = document.getElementsByClassName("select-selected");
+    xl = x.length;
+    yl = y.length;
+    for (i = 0; i < yl; i++) {
+      if (elmnt == y[i]) {
+        arrNo.push(i)
+      } else {
+        y[i].classList.remove("select-arrow-active");
+      }
+    }
+    for (i = 0; i < xl; i++) {
+      if (arrNo.indexOf(i)) {
+        x[i].classList.add("select-hide");
+      }
+    }
+  }
+  /*if the user clicks anywhere outside the select box,
+  then close all select boxes:*/
+  document.addEventListener("click", closeAllSelect);
+  </script>
+
+
+
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
+
+<script>
+    //Get the button:
+        mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        </script>
+  
+</body>
+</html>
